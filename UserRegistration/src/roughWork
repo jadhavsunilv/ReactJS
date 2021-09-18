@@ -1,0 +1,43 @@
+To crete App
+npx create-react-app
+
+App structure
+
+src
++-----actions
+|   | ----api.js (To hadle all http request)  => install axios for api call => npm i -s axios
+|   |-----dcandidate.js (redux Actions and Action creator)
+|   |----store.js (configure redux store)
+|
+|----components
+|     |
+|     |--DcandidateForms.js (Form opration)===>Child Component
+|     |--Dcandidates.js   (List of records)  ==>parent component 
+|     |--userForm.js  (handles common form opration)
+|
+|-----reducers
+|        |
+|        |---dcandidates.js
+|        |--index.js
+|
+|--App.js
+|--index.js
+|--index.css
+
+
+-To Install redux packages (redux,react-redux,redux-thunk)
+CMD:npm i -s redux react-redux redux-thunk
+
+redux:-
+react-redux:-conect with react application and redux 
+redux-thunk:-
+
+dedux have 3 type 
+Action :create ,update,delete data
+reducers:reducer modify data to store
+store:
+
+Ex: Componet =>dispatch (Action )=>reducer=> update or reflact data to componet 
+
+Matrial UI =>
+   =>npm i -s @material-ui/core @material-ui/icons 
